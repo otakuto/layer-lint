@@ -1,0 +1,16 @@
+[package]
+name = "layer-lint"
+edition = "2024"
+version = "0.0.0"
+publish = false
+
+[workspace]
+
+[dependencies]
+anyhow = "1"
+clap = { version = "4", features = ["derive"] }
+codespan-reporting = "0.11"
+serde = { version = "1", features = ["derive"] }
+serde_yaml = "0.9"
+serde_json = "1"
+regex = "1"
